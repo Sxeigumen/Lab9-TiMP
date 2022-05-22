@@ -13,6 +13,8 @@ jobs:
           cmake -H. -B_build -DCPACK_GENERATOR="TGZ"
           cmake --build _build --target package
           
+          
+      - uses: actions/checkout@v2   
       - uses: actions/relese-action@v1
         with:
           tag: v0.0.0.1
