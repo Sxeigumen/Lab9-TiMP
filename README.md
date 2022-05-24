@@ -27,3 +27,15 @@ $ git config gpg.program gpg
 git tag v0.0.0.2
 git push origin main --tags
 ```
+
+
+## Релиз
+
+```
+github-release info -u Sxeigumen -r Lab9-TiMP
+github-release release \
+    --user Sxeigumen \
+    --repo Lab9-TiMP \
+    --tag v0.0.0.5 \
+    --name "main_" \
+```
