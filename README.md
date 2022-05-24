@@ -37,5 +37,5 @@ github-release release \
     --user Sxeigumen \
     --repo Lab9-TiMP \
     --tag v0.0.0.5 \
-    --name "main_" \
+    --name "main_" 
 ```
